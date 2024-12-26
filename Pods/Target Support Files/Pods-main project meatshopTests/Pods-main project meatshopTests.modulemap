@@ -1,0 +1,6 @@
+framework module Pods_main_project_meatshopTests {
+  umbrella header "Pods-main project meatshopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

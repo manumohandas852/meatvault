@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F57C40B2EFDD40DE161EB81B6D13A1 /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660BE14960289EE06F6A8A77496389E3 /* SideMenuAnimationController.swift */; };
+		022335CBC3AE9EBEF4E5DC9704BBAA97 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2A706C1FA3BAA363DBF59029F31005 /* SideMenuNavigationController.swift */; };
+		067B87E53AB2EC368178DE295D570B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		0B78EF8FE6D6FD97A2D2CADD441C9F12 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB8746098FFF5A96EB3D9E945423CD /* SideMenuTransitionController.swift */; };
+		0CEE95CF49D2D447549922956A4DDEB3 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67F9CDC0B5079CD5AC53487CCC64D48 /* UITextField+fixCaretPosition.swift */; };
+		0D131F476AADFD10C790C1CECA93E0B7 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413458DFCD741E274FAE5A88C06A0E30 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF71D17CFF80F60BB30279904B6EB51 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A6EC807CBBEB5AD9287999DE65989 /* SideMenu-dummy.m */; };
+		184AFFAC80359FD9990C77BBED86211D /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA728913CA3F5AC9558E345D3C3F8FE /* SideMenuPresentationStyle.swift */; };
+		1CB84F14A0FE769DEBC2980DB95154C3 /* Pods-main project meatshop-main project meatshopUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9391903BCD0198411DC3BB0D50F6FACC /* Pods-main project meatshop-main project meatshopUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C357670B82EF7976CA0CE621B8DCEF /* Pods-main project meatshop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 535F3618B088FA26B6F67697692006A3 /* Pods-main project meatshop-dummy.m */; };
+		26FF0B8CCE4AFCB2C5A2E6FFB201BBA0 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609E44DB4FBF409BB0033EB5471A4833 /* Print.swift */; };
+		28C70ACD8EB70B0FD573A2EF75233584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		2D90906CDD590B8CD77715E70A125474 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B4CDF6655C68D63B11C132E22EE7E4 /* SkyFloatingLabelTextField-dummy.m */; };
+		2E9C54B89AF97018444ECC362AF083F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		4578656DBB63E1FE44BF92E131A2EC0E /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4846BF983EE13F5EA6176AB2A8D99EA /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C1A5200655DBD35FACA5E05380772A8 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1F2B4E7D96BD5EE458364F5FC882C /* SideMenuInteractionController.swift */; };
+		5D231730D5FD7C526A9B075EA9338352 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C9ABA964BCA213E360DBEC6C7EBFB /* Deprecations.swift */; };
+		625D31BA8F4969775CA9CB719F0A6A16 /* Pods-main project meatshopTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B13E9AA6C1710C373CE7C56582B696B /* Pods-main project meatshopTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDD0B1465FAEBE3EDBE182FE90D1A7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A22CD8EF5FA5855C1699F51A5F443677 /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F334DB8F4DBFC9CF54C620BA4CDC99E /* SideMenuPresentationController.swift */; };
+		A5A7F6F23015C26C5AC6EEF068D7240D /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A5286E78BB4B4FBA04C77FC1A1728 /* UITableViewVibrantCell.swift */; };
+		B513B4242905D8808EF372E845868E88 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17601D41EF4DF86C5FACE3166135A73 /* Initializable.swift */; };
+		C16A9FA0262BD87E5721FDB70D6FD528 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F51830477B73A2513295C05A6C41FC4 /* Protected.swift */; };
+		C174222B34B666E70C5779D8832446BE /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11FE0E7E9F83878A7F80D90B594FE4E /* SideMenuManager.swift */; };
+		CF6E883DDBA0DD3481FD4C4DFDBD4CE8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802FD29CC5EDCC957DF344EF1EDB40D /* Extensions.swift */; };
+		D2E304793D5E3EAA82F9F703D101A9EF /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C741FE5B88E56E2004FCA48396D6 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		E811F28EB4F6694268E9DA824A1BF62F /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94436BF237162FBEF02E29B8D3D90 /* SkyFloatingLabelTextField.swift */; };
+		EA7E7BD0B51404BE25155BFF34E21587 /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D8A49195846308572393AC4DBCFAD /* SideMenuPushCoordinator.swift */; };
+		ECBDEC10DED10906C74E8FD6A01E20C7 /* Pods-main project meatshop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B2E40EC5206364F3A942EA68DC8DCC /* Pods-main project meatshop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F28B5C717088330D96A5DE0BB93B6B /* Pods-main project meatshopTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0C1B4878B843F86854F5B2EAE47BB2 /* Pods-main project meatshopTests-dummy.m */; };
+		F8816137F19DC3C0555C94F5898B4947 /* Pods-main project meatshop-main project meatshopUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEBF98D80ADF6ABAD4E82BC0893671C /* Pods-main project meatshop-main project meatshopUITests-dummy.m */; };
+		FE09C5BDC68D32CE8EDF01BE9334318F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16CE87B5C6BB9478F48B6986883FE5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		423EF0BBD840146FD1B937F1FCB5980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		885F3D624D6C0E628395E189AF9BAAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D45849FE4BB87DC067E3D7269C2728;
+			remoteInfo = "Pods-main project meatshop";
+		};
+		C52290AF8FBC8F169EBFF65A4AA5412C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		F3A1BF5FF6332C85CECCD7E6EB07684E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06891EF4FE316E34821573646C7EED33 /* Pods-main project meatshop-main project meatshopUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-main project meatshop-main project meatshopUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CCBFACC35948D03787E5CDEE5117F85 /* Pods-main project meatshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-main project meatshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F138E9A0301B4F05C696E98420F514A /* Pods-main project meatshopTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-main project meatshopTests.modulemap"; sourceTree = "<group>"; };
+		1FE1B0D5DFFF66344C175492C1148D64 /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
+		2748A9903A63037A0731C4055AA6F617 /* Pods-main project meatshopTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-main project meatshopTests-Info.plist"; sourceTree = "<group>"; };
+		2C70EA6F825CBADD66BAD5D6E88F3A39 /* Pods-main project meatshop-main project meatshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-main project meatshop-main project meatshopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		308E1A68FFD6C4F83B4DBF9439AC586E /* Pods-main project meatshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-main project meatshop.debug.xcconfig"; sourceTree = "<group>"; };
+		314A5886B25A7506CE0DA0219188E047 /* Pods-main project meatshop-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-main project meatshop-frameworks.sh"; sourceTree = "<group>"; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3466409898490F9BB469F3A8A5CAE23A /* Pods-main project meatshop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-main project meatshop.modulemap"; sourceTree = "<group>"; };
+		36A3C741FE5B88E56E2004FCA48396D6 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		36B520DB41140C8779074099DC9BEBCB /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DA728913CA3F5AC9558E345D3C3F8FE /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		3DC68B6002FB6889045FB6C24071C12E /* Pods-main project meatshop-main project meatshopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-main project meatshop-main project meatshopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		413458DFCD741E274FAE5A88C06A0E30 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		42C94436BF237162FBEF02E29B8D3D90 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		4E2A706C1FA3BAA363DBF59029F31005 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		535F3618B088FA26B6F67697692006A3 /* Pods-main project meatshop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-main project meatshop-dummy.m"; sourceTree = "<group>"; };
+		573C9ABA964BCA213E360DBEC6C7EBFB /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		609E44DB4FBF409BB0033EB5471A4833 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		62370A24F824257E5F6EFDA449C243D9 /* Pods-main project meatshop-main project meatshopUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-main project meatshop-main project meatshopUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62B213565AD60DC0E716817A7B070C26 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_main_project_meatshop_main_project_meatshopUITests.framework; path = "Pods-main project meatshop-main project meatshopUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660BE14960289EE06F6A8A77496389E3 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		6BCF0B4F53022645F24D9C2DA74EFABC /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		6F51830477B73A2513295C05A6C41FC4 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		75E8EA075BA3183377E5D07888BAB74B /* Pods-main project meatshopTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-main project meatshopTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76CF7E097BF4AB722205E3A019996E50 /* Pods-main project meatshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-main project meatshop.release.xcconfig"; sourceTree = "<group>"; };
+		76ED04CEF90415D1DACC9F0673DB31E2 /* Pods_main_project_meatshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_main_project_meatshopTests.framework; path = "Pods-main project meatshopTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEBF98D80ADF6ABAD4E82BC0893671C /* Pods-main project meatshop-main project meatshopUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-main project meatshop-main project meatshopUITests-dummy.m"; sourceTree = "<group>"; };
+		8387AB957F85E942429BD9A3E230008E /* Pods-main project meatshop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-main project meatshop-Info.plist"; sourceTree = "<group>"; };
+		8B246524DEF8FC4D7B090F562AB5F6F8 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
+		8B4A5286E78BB4B4FBA04C77FC1A1728 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		8D1C263AE7F214C655851A4E3623126C /* Pods-main project meatshop-main project meatshopUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-main project meatshop-main project meatshopUITests.modulemap"; sourceTree = "<group>"; };
+		8EFBED3221820E4FF25FAA20C1E26263 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		9391903BCD0198411DC3BB0D50F6FACC /* Pods-main project meatshop-main project meatshopUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-main project meatshop-main project meatshopUITests-umbrella.h"; sourceTree = "<group>"; };
+		9B13E9AA6C1710C373CE7C56582B696B /* Pods-main project meatshopTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-main project meatshopTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F334DB8F4DBFC9CF54C620BA4CDC99E /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		A22F7D553A4550D5752463E736B03327 /* Pods-main project meatshop-main project meatshopUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-main project meatshop-main project meatshopUITests-Info.plist"; sourceTree = "<group>"; };
+		A4846BF983EE13F5EA6176AB2A8D99EA /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		A4CFAB7479B13C9E34E49063AD264E5B /* Pods-main project meatshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-main project meatshopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A802FD29CC5EDCC957DF344EF1EDB40D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
+		AF6A6EC807CBBEB5AD9287999DE65989 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		B11FE0E7E9F83878A7F80D90B594FE4E /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		B2888B072BA9107C4CDC4562015C7966 /* Pods-main project meatshop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-main project meatshop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4B2E40EC5206364F3A942EA68DC8DCC /* Pods-main project meatshop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-main project meatshop-umbrella.h"; sourceTree = "<group>"; };
+		BAAB8746098FFF5A96EB3D9E945423CD /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		BD329C48F72DA57370955810A9302C06 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		C17601D41EF4DF86C5FACE3166135A73 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		C67F9CDC0B5079CD5AC53487CCC64D48 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		CCD04B063A1ABABA3C0F5F72CD6349AB /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		D0AB6D081877B8C9EC928D77C9093EBA /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		D26C7DA7DFA62A38FEB122EEDD4099CC /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B4CDF6655C68D63B11C132E22EE7E4 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		D95642317308D4669945B228D76D4565 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		DA49EE1832DA90D98D808B6D4B0D3C8E /* Pods-main project meatshop-main project meatshopUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-main project meatshop-main project meatshopUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DFE1F2B4E7D96BD5EE458364F5FC882C /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		E28387E6777175CC97D322FFE120AC16 /* Pods_main_project_meatshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_main_project_meatshop.framework; path = "Pods-main project meatshop.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65D8A49195846308572393AC4DBCFAD /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
+		EA56F429AC845FBFB1EACB8FD368E241 /* Pods-main project meatshop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-main project meatshop-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEF02B4C58D97778228C34F18E01B46F /* Pods-main project meatshopTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-main project meatshopTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF0C1B4878B843F86854F5B2EAE47BB2 /* Pods-main project meatshopTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-main project meatshopTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279F88C2B8B8D9F47C0243D94D43B63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C70ACD8EB70B0FD573A2EF75233584 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0B42BEF11318E84D976C918E562A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE09C5BDC68D32CE8EDF01BE9334318F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7BE03CFEB084BFF62EE2E9C4942376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDD0B1465FAEBE3EDBE182FE90D1A7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37D05FD096C2BFF925535B42C1951CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9C54B89AF97018444ECC362AF083F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59B2534A49E8E70FFEDCDD759D3A20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B87E53AB2EC368178DE295D570B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC8C9B5DF98974AE9416A1943A67C73 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				42C94436BF237162FBEF02E29B8D3D90 /* SkyFloatingLabelTextField.swift */,
+				36A3C741FE5B88E56E2004FCA48396D6 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				C67F9CDC0B5079CD5AC53487CCC64D48 /* UITextField+fixCaretPosition.swift */,
+				7455FD58E2591FAD136BC3B7842D291B /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		2247AF8B36D8B418AAAE87ECC927DC67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95642317308D4669945B228D76D4565 /* SideMenu.modulemap */,
+				AF6A6EC807CBBEB5AD9287999DE65989 /* SideMenu-dummy.m */,
+				6BCF0B4F53022645F24D9C2DA74EFABC /* SideMenu-Info.plist */,
+				8EFBED3221820E4FF25FAA20C1E26263 /* SideMenu-prefix.pch */,
+				413458DFCD741E274FAE5A88C06A0E30 /* SideMenu-umbrella.h */,
+				D26C7DA7DFA62A38FEB122EEDD4099CC /* SideMenu.debug.xcconfig */,
+				1FE1B0D5DFFF66344C175492C1148D64 /* SideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		4F89AAB493076379C2CA9AD6E23C9D94 /* Pods-main project meatshop-main project meatshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D1C263AE7F214C655851A4E3623126C /* Pods-main project meatshop-main project meatshopUITests.modulemap */,
+				62370A24F824257E5F6EFDA449C243D9 /* Pods-main project meatshop-main project meatshopUITests-acknowledgements.markdown */,
+				06891EF4FE316E34821573646C7EED33 /* Pods-main project meatshop-main project meatshopUITests-acknowledgements.plist */,
+				7BEBF98D80ADF6ABAD4E82BC0893671C /* Pods-main project meatshop-main project meatshopUITests-dummy.m */,
+				DA49EE1832DA90D98D808B6D4B0D3C8E /* Pods-main project meatshop-main project meatshopUITests-frameworks.sh */,
+				A22F7D553A4550D5752463E736B03327 /* Pods-main project meatshop-main project meatshopUITests-Info.plist */,
+				9391903BCD0198411DC3BB0D50F6FACC /* Pods-main project meatshop-main project meatshopUITests-umbrella.h */,
+				3DC68B6002FB6889045FB6C24071C12E /* Pods-main project meatshop-main project meatshopUITests.debug.xcconfig */,
+				2C70EA6F825CBADD66BAD5D6E88F3A39 /* Pods-main project meatshop-main project meatshopUITests.release.xcconfig */,
+			);
+			name = "Pods-main project meatshop-main project meatshopUITests";
+			path = "Target Support Files/Pods-main project meatshop-main project meatshopUITests";
+			sourceTree = "<group>";
+		};
+		5E7A53A32277884B77B6E9B6D34E962D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1132506A44FA275A4D49FBF6C42F03A /* Pods-main project meatshop */,
+				4F89AAB493076379C2CA9AD6E23C9D94 /* Pods-main project meatshop-main project meatshopUITests */,
+				F426AA678C5A5CA5861CAA695DAB88CB /* Pods-main project meatshopTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7455FD58E2591FAD136BC3B7842D291B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD329C48F72DA57370955810A9302C06 /* SkyFloatingLabelTextField.modulemap */,
+				D6B4CDF6655C68D63B11C132E22EE7E4 /* SkyFloatingLabelTextField-dummy.m */,
+				D0AB6D081877B8C9EC928D77C9093EBA /* SkyFloatingLabelTextField-Info.plist */,
+				CCD04B063A1ABABA3C0F5F72CD6349AB /* SkyFloatingLabelTextField-prefix.pch */,
+				A4846BF983EE13F5EA6176AB2A8D99EA /* SkyFloatingLabelTextField-umbrella.h */,
+				8B246524DEF8FC4D7B090F562AB5F6F8 /* SkyFloatingLabelTextField.debug.xcconfig */,
+				36B520DB41140C8779074099DC9BEBCB /* SkyFloatingLabelTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		A6A794872A144C23C0DDB05D42474BF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDAAC7E4595B9441E1ABCBAB16B2457B /* SideMenu */,
+				0BC8C9B5DF98974AE9416A1943A67C73 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A6A794872A144C23C0DDB05D42474BF8 /* Pods */,
+				E8771527ECA43E811745575639AE376D /* Products */,
+				5E7A53A32277884B77B6E9B6D34E962D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1132506A44FA275A4D49FBF6C42F03A /* Pods-main project meatshop */ = {
+			isa = PBXGroup;
+			children = (
+				3466409898490F9BB469F3A8A5CAE23A /* Pods-main project meatshop.modulemap */,
+				B2888B072BA9107C4CDC4562015C7966 /* Pods-main project meatshop-acknowledgements.markdown */,
+				EA56F429AC845FBFB1EACB8FD368E241 /* Pods-main project meatshop-acknowledgements.plist */,
+				535F3618B088FA26B6F67697692006A3 /* Pods-main project meatshop-dummy.m */,
+				314A5886B25A7506CE0DA0219188E047 /* Pods-main project meatshop-frameworks.sh */,
+				8387AB957F85E942429BD9A3E230008E /* Pods-main project meatshop-Info.plist */,
+				B4B2E40EC5206364F3A942EA68DC8DCC /* Pods-main project meatshop-umbrella.h */,
+				308E1A68FFD6C4F83B4DBF9439AC586E /* Pods-main project meatshop.debug.xcconfig */,
+				76CF7E097BF4AB722205E3A019996E50 /* Pods-main project meatshop.release.xcconfig */,
+			);
+			name = "Pods-main project meatshop";
+			path = "Target Support Files/Pods-main project meatshop";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8771527ECA43E811745575639AE376D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28387E6777175CC97D322FFE120AC16 /* Pods_main_project_meatshop.framework */,
+				62B213565AD60DC0E716817A7B070C26 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework */,
+				76ED04CEF90415D1DACC9F0673DB31E2 /* Pods_main_project_meatshopTests.framework */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F426AA678C5A5CA5861CAA695DAB88CB /* Pods-main project meatshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F138E9A0301B4F05C696E98420F514A /* Pods-main project meatshopTests.modulemap */,
+				75E8EA075BA3183377E5D07888BAB74B /* Pods-main project meatshopTests-acknowledgements.markdown */,
+				EEF02B4C58D97778228C34F18E01B46F /* Pods-main project meatshopTests-acknowledgements.plist */,
+				EF0C1B4878B843F86854F5B2EAE47BB2 /* Pods-main project meatshopTests-dummy.m */,
+				2748A9903A63037A0731C4055AA6F617 /* Pods-main project meatshopTests-Info.plist */,
+				9B13E9AA6C1710C373CE7C56582B696B /* Pods-main project meatshopTests-umbrella.h */,
+				A4CFAB7479B13C9E34E49063AD264E5B /* Pods-main project meatshopTests.debug.xcconfig */,
+				1CCBFACC35948D03787E5CDEE5117F85 /* Pods-main project meatshopTests.release.xcconfig */,
+			);
+			name = "Pods-main project meatshopTests";
+			path = "Target Support Files/Pods-main project meatshopTests";
+			sourceTree = "<group>";
+		};
+		FDAAC7E4595B9441E1ABCBAB16B2457B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				573C9ABA964BCA213E360DBEC6C7EBFB /* Deprecations.swift */,
+				A802FD29CC5EDCC957DF344EF1EDB40D /* Extensions.swift */,
+				C17601D41EF4DF86C5FACE3166135A73 /* Initializable.swift */,
+				609E44DB4FBF409BB0033EB5471A4833 /* Print.swift */,
+				6F51830477B73A2513295C05A6C41FC4 /* Protected.swift */,
+				660BE14960289EE06F6A8A77496389E3 /* SideMenuAnimationController.swift */,
+				DFE1F2B4E7D96BD5EE458364F5FC882C /* SideMenuInteractionController.swift */,
+				B11FE0E7E9F83878A7F80D90B594FE4E /* SideMenuManager.swift */,
+				4E2A706C1FA3BAA363DBF59029F31005 /* SideMenuNavigationController.swift */,
+				9F334DB8F4DBFC9CF54C620BA4CDC99E /* SideMenuPresentationController.swift */,
+				3DA728913CA3F5AC9558E345D3C3F8FE /* SideMenuPresentationStyle.swift */,
+				E65D8A49195846308572393AC4DBCFAD /* SideMenuPushCoordinator.swift */,
+				BAAB8746098FFF5A96EB3D9E945423CD /* SideMenuTransitionController.swift */,
+				8B4A5286E78BB4B4FBA04C77FC1A1728 /* UITableViewVibrantCell.swift */,
+				2247AF8B36D8B418AAAE87ECC927DC67 /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1862FEC884E9D5B6C40CA8729D257B05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625D31BA8F4969775CA9CB719F0A6A16 /* Pods-main project meatshopTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F54650896C9F959D5C720269F4C27EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D131F476AADFD10C790C1CECA93E0B7 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC4DCD7982EE851992C23E4EE642C20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4578656DBB63E1FE44BF92E131A2EC0E /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C3533DC5C9C8DED476CA8222C51A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB84F14A0FE769DEBC2980DB95154C3 /* Pods-main project meatshop-main project meatshopUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5E88128F8D6D5BCBBC8A1F376C2F1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDEC10DED10906C74E8FD6A01E20C7 /* Pods-main project meatshop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		247A0C05E9C9B4E63B85353658DB4F46 /* Pods-main project meatshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFABEBC42ABACABE5C4E8625E85E8824 /* Build configuration list for PBXNativeTarget "Pods-main project meatshopTests" */;
+			buildPhases = (
+				1862FEC884E9D5B6C40CA8729D257B05 /* Headers */,
+				6F37386C520D818B286980A0CBE0E73D /* Sources */,
+				E59B2534A49E8E70FFEDCDD759D3A20B /* Frameworks */,
+				3FE237FDDDDEAE2DC5F71D3AD10E866C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E659E59DACB017D9E7F844192BF0CA /* PBXTargetDependency */,
+			);
+			name = "Pods-main project meatshopTests";
+			productName = "Pods-main project meatshopTests";
+			productReference = 76ED04CEF90415D1DACC9F0673DB31E2 /* Pods_main_project_meatshopTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96D45849FE4BB87DC067E3D7269C2728 /* Pods-main project meatshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF802D110EFD92E254C5782AD6185F36 /* Build configuration list for PBXNativeTarget "Pods-main project meatshop" */;
+			buildPhases = (
+				AB5E88128F8D6D5BCBBC8A1F376C2F1C /* Headers */,
+				69C7390C33FB32C64E090E24ECF07A47 /* Sources */,
+				D37D05FD096C2BFF925535B42C1951CB /* Frameworks */,
+				F7E23C54EDFFDB3309C0CB233DD9F57B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C46B8C89311913CC45B97EF63B1BD9C /* PBXTargetDependency */,
+				5FF127F02BB5A3BC69DA604814625A85 /* PBXTargetDependency */,
+			);
+			name = "Pods-main project meatshop";
+			productName = "Pods-main project meatshop";
+			productReference = E28387E6777175CC97D322FFE120AC16 /* Pods_main_project_meatshop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA8DA4E80003257F0F0FAD4DA726F93A /* Pods-main project meatshop-main project meatshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F2E1905F81209D5FEF98D00A5D5C3B /* Build configuration list for PBXNativeTarget "Pods-main project meatshop-main project meatshopUITests" */;
+			buildPhases = (
+				77C3533DC5C9C8DED476CA8222C51A9B /* Headers */,
+				53DB18F119956B19E500EA2875D63CB3 /* Sources */,
+				3E0B42BEF11318E84D976C918E562A8C /* Frameworks */,
+				5B2BDBDC9E793BD00EDB2C50B85CCBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90CB6A6F448EE9A47976656E9CC59653 /* PBXTargetDependency */,
+				05B9ECB1A7125D271AAF46BACC981B0A /* PBXTargetDependency */,
+			);
+			name = "Pods-main project meatshop-main project meatshopUITests";
+			productName = "Pods-main project meatshop-main project meatshopUITests";
+			productReference = 62B213565AD60DC0E716817A7B070C26 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D5E5C3B5CDB33C6498A3061E968C72 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				2F54650896C9F959D5C720269F4C27EC /* Headers */,
+				554D4426BD9F0341FAB955517787C6EA /* Sources */,
+				5A7BE03CFEB084BFF62EE2E9C4942376 /* Frameworks */,
+				9AB5EC42CE148B97A218FB4E8C043848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3F43D815FD18D79777B7132A6348B4 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				6AC4DCD7982EE851992C23E4EE642C20 /* Headers */,
+				4068248EDCE8BF32A3AD778192C28A7B /* Sources */,
+				279F88C2B8B8D9F47C0243D94D43B63F /* Frameworks */,
+				269E85CDBFE72F7DAFC718F880A7A2A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E8771527ECA43E811745575639AE376D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96D45849FE4BB87DC067E3D7269C2728 /* Pods-main project meatshop */,
+				AA8DA4E80003257F0F0FAD4DA726F93A /* Pods-main project meatshop-main project meatshopUITests */,
+				247A0C05E9C9B4E63B85353658DB4F46 /* Pods-main project meatshopTests */,
+				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
+				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269E85CDBFE72F7DAFC718F880A7A2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE237FDDDDEAE2DC5F71D3AD10E866C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2BDBDC9E793BD00EDB2C50B85CCBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB5EC42CE148B97A218FB4E8C043848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E23C54EDFFDB3309C0CB233DD9F57B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4068248EDCE8BF32A3AD778192C28A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E811F28EB4F6694268E9DA824A1BF62F /* SkyFloatingLabelTextField.swift in Sources */,
+				2D90906CDD590B8CD77715E70A125474 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				D2E304793D5E3EAA82F9F703D101A9EF /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				0CEE95CF49D2D447549922956A4DDEB3 /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DB18F119956B19E500EA2875D63CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8816137F19DC3C0555C94F5898B4947 /* Pods-main project meatshop-main project meatshopUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554D4426BD9F0341FAB955517787C6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D231730D5FD7C526A9B075EA9338352 /* Deprecations.swift in Sources */,
+				CF6E883DDBA0DD3481FD4C4DFDBD4CE8 /* Extensions.swift in Sources */,
+				B513B4242905D8808EF372E845868E88 /* Initializable.swift in Sources */,
+				26FF0B8CCE4AFCB2C5A2E6FFB201BBA0 /* Print.swift in Sources */,
+				C16A9FA0262BD87E5721FDB70D6FD528 /* Protected.swift in Sources */,
+				0EF71D17CFF80F60BB30279904B6EB51 /* SideMenu-dummy.m in Sources */,
+				01F57C40B2EFDD40DE161EB81B6D13A1 /* SideMenuAnimationController.swift in Sources */,
+				4C1A5200655DBD35FACA5E05380772A8 /* SideMenuInteractionController.swift in Sources */,
+				C174222B34B666E70C5779D8832446BE /* SideMenuManager.swift in Sources */,
+				022335CBC3AE9EBEF4E5DC9704BBAA97 /* SideMenuNavigationController.swift in Sources */,
+				A22CD8EF5FA5855C1699F51A5F443677 /* SideMenuPresentationController.swift in Sources */,
+				184AFFAC80359FD9990C77BBED86211D /* SideMenuPresentationStyle.swift in Sources */,
+				EA7E7BD0B51404BE25155BFF34E21587 /* SideMenuPushCoordinator.swift in Sources */,
+				0B78EF8FE6D6FD97A2D2CADD441C9F12 /* SideMenuTransitionController.swift in Sources */,
+				A5A7F6F23015C26C5AC6EEF068D7240D /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C7390C33FB32C64E090E24ECF07A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C357670B82EF7976CA0CE621B8DCEF /* Pods-main project meatshop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F37386C520D818B286980A0CBE0E73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F28B5C717088330D96A5DE0BB93B6B /* Pods-main project meatshopTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B9ECB1A7125D271AAF46BACC981B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 423EF0BBD840146FD1B937F1FCB5980A /* PBXContainerItemProxy */;
+		};
+		31E659E59DACB017D9E7F844192BF0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-main project meatshop";
+			target = 96D45849FE4BB87DC067E3D7269C2728 /* Pods-main project meatshop */;
+			targetProxy = 885F3D624D6C0E628395E189AF9BAAF1 /* PBXContainerItemProxy */;
+		};
+		5FF127F02BB5A3BC69DA604814625A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = F3A1BF5FF6332C85CECCD7E6EB07684E /* PBXContainerItemProxy */;
+		};
+		90CB6A6F448EE9A47976656E9CC59653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = 16CE87B5C6BB9478F48B6986883FE5AF /* PBXContainerItemProxy */;
+		};
+		9C46B8C89311913CC45B97EF63B1BD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = C52290AF8FBC8F169EBFF65A4AA5412C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		102E1A2857FE65B519FF6610A73B79DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CFAB7479B13C9E34E49063AD264E5B /* Pods-main project meatshopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-main project meatshopTests/Pods-main project meatshopTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-main project meatshopTests/Pods-main project meatshopTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C46CAD31F823F3E4901350B52CC6C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCBFACC35948D03787E5CDEE5117F85 /* Pods-main project meatshopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-main project meatshopTests/Pods-main project meatshopTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-main project meatshopTests/Pods-main project meatshopTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2617EA0FBF0199408F9249D1BDC97446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308E1A68FFD6C4F83B4DBF9439AC586E /* Pods-main project meatshop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-main project meatshop/Pods-main project meatshop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-main project meatshop/Pods-main project meatshop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A8CBB74B581A0389393FABF39E9A803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CF7E097BF4AB722205E3A019996E50 /* Pods-main project meatshop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-main project meatshop/Pods-main project meatshop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-main project meatshop/Pods-main project meatshop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		979273A401ED464A2AF2B2D1410F2EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26C7DA7DFA62A38FEB122EEDD4099CC /* SideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF18E91D3FECBBFE114AD05AE60FC317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE1B0D5DFFF66344C175492C1148D64 /* SideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAA765BCFCFDC3BCA06BAA16543BA61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B246524DEF8FC4D7B090F562AB5F6F8 /* SkyFloatingLabelTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E237086254BFAA462F8414CCD025B6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B520DB41140C8779074099DC9BEBCB /* SkyFloatingLabelTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8119F106382AA4488F1CDED1F059F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C70EA6F825CBADD66BAD5D6E88F3A39 /* Pods-main project meatshop-main project meatshopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1427253455268CE900620397A92495E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC68B6002FB6889045FB6C24071C12E /* Pods-main project meatshop-main project meatshopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F2E1905F81209D5FEF98D00A5D5C3B /* Build configuration list for PBXNativeTarget "Pods-main project meatshop-main project meatshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1427253455268CE900620397A92495E /* Debug */,
+				E8119F106382AA4488F1CDED1F059F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D5E5C3B5CDB33C6498A3061E968C72 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979273A401ED464A2AF2B2D1410F2EB3 /* Debug */,
+				CF18E91D3FECBBFE114AD05AE60FC317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3F43D815FD18D79777B7132A6348B4 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA765BCFCFDC3BCA06BAA16543BA61F /* Debug */,
+				E237086254BFAA462F8414CCD025B6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF802D110EFD92E254C5782AD6185F36 /* Build configuration list for PBXNativeTarget "Pods-main project meatshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2617EA0FBF0199408F9249D1BDC97446 /* Debug */,
+				4A8CBB74B581A0389393FABF39E9A803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFABEBC42ABACABE5C4E8625E85E8824 /* Build configuration list for PBXNativeTarget "Pods-main project meatshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102E1A2857FE65B519FF6610A73B79DA /* Debug */,
+				1C46CAD31F823F3E4901350B52CC6C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

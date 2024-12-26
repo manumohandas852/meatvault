@@ -1,0 +1,20 @@
+PODS:
+  - SideMenu (6.5.0)
+  - SkyFloatingLabelTextField (4.0.0)
+
+DEPENDENCIES:
+  - SideMenu
+  - SkyFloatingLabelTextField
+
+SPEC REPOS:
+  trunk:
+    - SideMenu
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
+
+PODFILE CHECKSUM: 75ae1e8dec28c813a1e201cda95ab0572684c9e9
+
+COCOAPODS: 1.10.0

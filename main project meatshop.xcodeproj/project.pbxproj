@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17FD7A16A38505F69E0CA0D1 /* Pods_main_project_meatshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0140E6C89779E977F4F88EA /* Pods_main_project_meatshop.framework */; };
+		2AD6C16A2D100AF600898899 /* tabar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6C1692D100AF600898899 /* tabar.swift */; };
+		2AD6C16C2D100C9900898899 /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6C16B2D100C9900898899 /* tabViewController.swift */; };
+		97BAC461304D57739D6505FE /* Pods_main_project_meatshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37611995255044B1B55FF164 /* Pods_main_project_meatshopTests.framework */; };
+		CBCE479D2F104060A475A1C8 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA11D7133CE8956C2FE60315 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework */; };
+		D27067462D00359B003C0EFE /* ImageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27067452D00359B003C0EFE /* ImageSliderCell.swift */; };
+		D270674B2D003CEC003C0EFE /* categoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270674A2D003CEC003C0EFE /* categoriesTableViewCell.swift */; };
+		D27067502D004E4F003C0EFE /* catagoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270674F2D004E4F003C0EFE /* catagoriesCollectionViewCell.swift */; };
+		D270675D2D0065EA003C0EFE /* freshfishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270675C2D0065EA003C0EFE /* freshfishViewController.swift */; };
+		D27F45832D00333300670219 /* ImageSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27F45822D00333300670219 /* ImageSliderTableViewCell.swift */; };
+		D29984012CE48ACB00A33268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29984002CE48ACB00A33268 /* AppDelegate.swift */; };
+		D29984032CE48ACB00A33268 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29984022CE48ACB00A33268 /* SceneDelegate.swift */; };
+		D29984052CE48ACC00A33268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29984042CE48ACC00A33268 /* ViewController.swift */; };
+		D29984082CE48ACC00A33268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29984062CE48ACC00A33268 /* Main.storyboard */; };
+		D299840B2CE48ACC00A33268 /* main_project_meatshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D29984092CE48ACC00A33268 /* main_project_meatshop.xcdatamodeld */; };
+		D299840D2CE48AD000A33268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D299840C2CE48AD000A33268 /* Assets.xcassets */; };
+		D29984102CE48AD000A33268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D299840E2CE48AD000A33268 /* LaunchScreen.storyboard */; };
+		D299841B2CE48AD000A33268 /* main_project_meatshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D299841A2CE48AD000A33268 /* main_project_meatshopTests.swift */; };
+		D29984262CE48AD100A33268 /* main_project_meatshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29984252CE48AD100A33268 /* main_project_meatshopUITests.swift */; };
+		D2AF065F2D08114E0099BD11 /* recepiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF065E2D08114E0099BD11 /* recepiesViewController.swift */; };
+		D2AF06642D0811900099BD11 /* foodsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF06632D0811900099BD11 /* foodsCollectionViewCell.swift */; };
+		D2AF06692D0822C60099BD11 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF06682D0822C50099BD11 /* detailsViewController.swift */; };
+		D2AF066E2D08370D0099BD11 /* editViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF066D2D08370C0099BD11 /* editViewController.swift */; };
+		D2AF06762D0850430099BD11 /* sideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF06752D0850430099BD11 /* sideTableViewCell.swift */; };
+		D2AF067B2D0850A80099BD11 /* sidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF067A2D0850A80099BD11 /* sidemenuViewController.swift */; };
+		D2AF4BE92D0183670016B77C /* productCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF4BE82D0183670016B77C /* productCollectionViewCell.swift */; };
+		D2C5D7692D06CD1F0097FD52 /* fishlabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5D7682D06CD1F0097FD52 /* fishlabelTableViewCell.swift */; };
+		D2C5D76E2D06CEB00097FD52 /* singleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5D76D2D06CEB00097FD52 /* singleViewController.swift */; };
+		D2C5D7762D06F0D50097FD52 /* similarproductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5D7752D06F0D50097FD52 /* similarproductsCollectionViewCell.swift */; };
+		D2C8DA932CE5E8C800BE072F /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C8DA922CE5E8C800BE072F /* signupViewController.swift */; };
+		D2D5EE202CE725BA00620067 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5EE1F2CE725BA00620067 /* homeViewController.swift */; };
+		D2E8AD6D2D019CD2003F1B6B /* firstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8AD6C2D019CD2003F1B6B /* firstTableViewCell.swift */; };
+		D2E8AD782D01A4D5003F1B6B /* secondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8AD772D01A4D5003F1B6B /* secondTableViewCell.swift */; };
+		D2E8ADBE2D01B83A003F1B6B /* aboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E8ADBD2D01B83A003F1B6B /* aboutusViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D29984172CE48AD000A33268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29983F52CE48ACB00A33268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29983FC2CE48ACB00A33268;
+			remoteInfo = "main project meatshop";
+		};
+		D29984222CE48AD100A33268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29983F52CE48ACB00A33268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29983FC2CE48ACB00A33268;
+			remoteInfo = "main project meatshop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15B36D816894389240FF73E2 /* Pods-main project meatshop-main project meatshopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main project meatshop-main project meatshopUITests.debug.xcconfig"; path = "Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AD6C1692D100AF600898899 /* tabar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabar.swift; sourceTree = "<group>"; };
+		2AD6C16B2D100C9900898899 /* tabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		37611995255044B1B55FF164 /* Pods_main_project_meatshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_project_meatshopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD58F858E2BC73C35593C2A /* Pods-main project meatshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main project meatshopTests.release.xcconfig"; path = "Target Support Files/Pods-main project meatshopTests/Pods-main project meatshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BDF0AFC429EA3454B0800BC /* Pods-main project meatshop-main project meatshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main project meatshop-main project meatshopUITests.release.xcconfig"; path = "Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85C57B9CF8C2898D7ADA4764 /* Pods-main project meatshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main project meatshopTests.debug.xcconfig"; path = "Target Support Files/Pods-main project meatshopTests/Pods-main project meatshopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91C70A7C64488431C4007BF8 /* Pods-main project meatshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main project meatshop.release.xcconfig"; path = "Target Support Files/Pods-main project meatshop/Pods-main project meatshop.release.xcconfig"; sourceTree = "<group>"; };
+		AA11D7133CE8956C2FE60315 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_project_meatshop_main_project_meatshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0140E6C89779E977F4F88EA /* Pods_main_project_meatshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_main_project_meatshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27067452D00359B003C0EFE /* ImageSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCell.swift; sourceTree = "<group>"; };
+		D270674A2D003CEC003C0EFE /* categoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesTableViewCell.swift; sourceTree = "<group>"; };
+		D270674F2D004E4F003C0EFE /* catagoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catagoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D270675C2D0065EA003C0EFE /* freshfishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freshfishViewController.swift; sourceTree = "<group>"; };
+		D27F45822D00333300670219 /* ImageSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderTableViewCell.swift; sourceTree = "<group>"; };
+		D29983FD2CE48ACB00A33268 /* main project meatshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "main project meatshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29984002CE48ACB00A33268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D29984022CE48ACB00A33268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D29984042CE48ACC00A33268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D29984072CE48ACC00A33268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D299840A2CE48ACC00A33268 /* main_project_meatshop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = main_project_meatshop.xcdatamodel; sourceTree = "<group>"; };
+		D299840C2CE48AD000A33268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D299840F2CE48AD000A33268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D29984112CE48AD000A33268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29984162CE48AD000A33268 /* main project meatshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "main project meatshopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299841A2CE48AD000A33268 /* main_project_meatshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main_project_meatshopTests.swift; sourceTree = "<group>"; };
+		D299841C2CE48AD000A33268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29984212CE48AD100A33268 /* main project meatshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "main project meatshopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29984252CE48AD100A33268 /* main_project_meatshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main_project_meatshopUITests.swift; sourceTree = "<group>"; };
+		D29984272CE48AD100A33268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF065E2D08114E0099BD11 /* recepiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recepiesViewController.swift; sourceTree = "<group>"; };
+		D2AF06632D0811900099BD11 /* foodsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2AF06682D0822C50099BD11 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		D2AF066D2D08370C0099BD11 /* editViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editViewController.swift; sourceTree = "<group>"; };
+		D2AF06752D0850430099BD11 /* sideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideTableViewCell.swift; sourceTree = "<group>"; };
+		D2AF067A2D0850A80099BD11 /* sidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuViewController.swift; sourceTree = "<group>"; };
+		D2AF4BE82D0183670016B77C /* productCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2C5D7682D06CD1F0097FD52 /* fishlabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishlabelTableViewCell.swift; sourceTree = "<group>"; };
+		D2C5D76D2D06CEB00097FD52 /* singleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleViewController.swift; sourceTree = "<group>"; };
+		D2C5D7752D06F0D50097FD52 /* similarproductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = similarproductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2C8DA922CE5E8C800BE072F /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		D2D5EE1F2CE725BA00620067 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		D2E8AD6C2D019CD2003F1B6B /* firstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableViewCell.swift; sourceTree = "<group>"; };
+		D2E8AD772D01A4D5003F1B6B /* secondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTableViewCell.swift; sourceTree = "<group>"; };
+		D2E8ADBD2D01B83A003F1B6B /* aboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutusViewController.swift; sourceTree = "<group>"; };
+		E803DDDF110EB1B20ED701F2 /* Pods-main project meatshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-main project meatshop.debug.xcconfig"; path = "Target Support Files/Pods-main project meatshop/Pods-main project meatshop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29983FA2CE48ACB00A33268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FD7A16A38505F69E0CA0D1 /* Pods_main_project_meatshop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29984132CE48AD000A33268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BAC461304D57739D6505FE /* Pods_main_project_meatshopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299841E2CE48AD100A33268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE479D2F104060A475A1C8 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B9E89455E78F6594124ACCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E803DDDF110EB1B20ED701F2 /* Pods-main project meatshop.debug.xcconfig */,
+				91C70A7C64488431C4007BF8 /* Pods-main project meatshop.release.xcconfig */,
+				15B36D816894389240FF73E2 /* Pods-main project meatshop-main project meatshopUITests.debug.xcconfig */,
+				5BDF0AFC429EA3454B0800BC /* Pods-main project meatshop-main project meatshopUITests.release.xcconfig */,
+				85C57B9CF8C2898D7ADA4764 /* Pods-main project meatshopTests.debug.xcconfig */,
+				4DD58F858E2BC73C35593C2A /* Pods-main project meatshopTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D29983F42CE48ACB00A33268 = {
+			isa = PBXGroup;
+			children = (
+				D29983FF2CE48ACB00A33268 /* main project meatshop */,
+				D29984192CE48AD000A33268 /* main project meatshopTests */,
+				D29984242CE48AD100A33268 /* main project meatshopUITests */,
+				D29983FE2CE48ACB00A33268 /* Products */,
+				9B9E89455E78F6594124ACCC /* Pods */,
+				F0177DA62CAAD365E9B87F48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D29983FE2CE48ACB00A33268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29983FD2CE48ACB00A33268 /* main project meatshop.app */,
+				D29984162CE48AD000A33268 /* main project meatshopTests.xctest */,
+				D29984212CE48AD100A33268 /* main project meatshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29983FF2CE48ACB00A33268 /* main project meatshop */ = {
+			isa = PBXGroup;
+			children = (
+				D29984002CE48ACB00A33268 /* AppDelegate.swift */,
+				D29984022CE48ACB00A33268 /* SceneDelegate.swift */,
+				D2C8DA922CE5E8C800BE072F /* signupViewController.swift */,
+				D29984042CE48ACC00A33268 /* ViewController.swift */,
+				2AD6C16B2D100C9900898899 /* tabViewController.swift */,
+				D2C5D7752D06F0D50097FD52 /* similarproductsCollectionViewCell.swift */,
+				D2E8ADBD2D01B83A003F1B6B /* aboutusViewController.swift */,
+				D2AF066D2D08370C0099BD11 /* editViewController.swift */,
+				D2AF067A2D0850A80099BD11 /* sidemenuViewController.swift */,
+				D2C5D76D2D06CEB00097FD52 /* singleViewController.swift */,
+				D2AF06752D0850430099BD11 /* sideTableViewCell.swift */,
+				D2AF06632D0811900099BD11 /* foodsCollectionViewCell.swift */,
+				2AD6C1692D100AF600898899 /* tabar.swift */,
+				D2AF065E2D08114E0099BD11 /* recepiesViewController.swift */,
+				D2AF06682D0822C50099BD11 /* detailsViewController.swift */,
+				D2C5D7682D06CD1F0097FD52 /* fishlabelTableViewCell.swift */,
+				D2E8AD762D01A4A6003F1B6B /* side menu */,
+				D2E8ADA32D01A569003F1B6B /* home  */,
+				D2E8ADA42D01A5D7003F1B6B /* freshfish */,
+				D29984062CE48ACC00A33268 /* Main.storyboard */,
+				D299840C2CE48AD000A33268 /* Assets.xcassets */,
+				D299840E2CE48AD000A33268 /* LaunchScreen.storyboard */,
+				D29984112CE48AD000A33268 /* Info.plist */,
+				D29984092CE48ACC00A33268 /* main_project_meatshop.xcdatamodeld */,
+			);
+			path = "main project meatshop";
+			sourceTree = "<group>";
+		};
+		D29984192CE48AD000A33268 /* main project meatshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				D299841A2CE48AD000A33268 /* main_project_meatshopTests.swift */,
+				D299841C2CE48AD000A33268 /* Info.plist */,
+			);
+			path = "main project meatshopTests";
+			sourceTree = "<group>";
+		};
+		D29984242CE48AD100A33268 /* main project meatshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D29984252CE48AD100A33268 /* main_project_meatshopUITests.swift */,
+				D29984272CE48AD100A33268 /* Info.plist */,
+			);
+			path = "main project meatshopUITests";
+			sourceTree = "<group>";
+		};
+		D2E8AD762D01A4A6003F1B6B /* side menu */ = {
+			isa = PBXGroup;
+			children = (
+				D2E8AD6C2D019CD2003F1B6B /* firstTableViewCell.swift */,
+				D2E8AD772D01A4D5003F1B6B /* secondTableViewCell.swift */,
+			);
+			path = "side menu";
+			sourceTree = "<group>";
+		};
+		D2E8ADA32D01A569003F1B6B /* home  */ = {
+			isa = PBXGroup;
+			children = (
+				D270674A2D003CEC003C0EFE /* categoriesTableViewCell.swift */,
+				D27067452D00359B003C0EFE /* ImageSliderCell.swift */,
+				D27F45822D00333300670219 /* ImageSliderTableViewCell.swift */,
+				D270674F2D004E4F003C0EFE /* catagoriesCollectionViewCell.swift */,
+				D2D5EE1F2CE725BA00620067 /* homeViewController.swift */,
+			);
+			path = "home ";
+			sourceTree = "<group>";
+		};
+		D2E8ADA42D01A5D7003F1B6B /* freshfish */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF4BE82D0183670016B77C /* productCollectionViewCell.swift */,
+				D270675C2D0065EA003C0EFE /* freshfishViewController.swift */,
+			);
+			path = freshfish;
+			sourceTree = "<group>";
+		};
+		F0177DA62CAAD365E9B87F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0140E6C89779E977F4F88EA /* Pods_main_project_meatshop.framework */,
+				AA11D7133CE8956C2FE60315 /* Pods_main_project_meatshop_main_project_meatshopUITests.framework */,
+				37611995255044B1B55FF164 /* Pods_main_project_meatshopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29983FC2CE48ACB00A33268 /* main project meatshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299842A2CE48AD100A33268 /* Build configuration list for PBXNativeTarget "main project meatshop" */;
+			buildPhases = (
+				EE25651444DD8288EF577E85 /* [CP] Check Pods Manifest.lock */,
+				D29983F92CE48ACB00A33268 /* Sources */,
+				D29983FA2CE48ACB00A33268 /* Frameworks */,
+				D29983FB2CE48ACB00A33268 /* Resources */,
+				574746F1828FDD562AAE853F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "main project meatshop";
+			productName = "main project meatshop";
+			productReference = D29983FD2CE48ACB00A33268 /* main project meatshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D29984152CE48AD000A33268 /* main project meatshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D299842D2CE48AD100A33268 /* Build configuration list for PBXNativeTarget "main project meatshopTests" */;
+			buildPhases = (
+				A4607FE92423D7E903A399B2 /* [CP] Check Pods Manifest.lock */,
+				D29984122CE48AD000A33268 /* Sources */,
+				D29984132CE48AD000A33268 /* Frameworks */,
+				D29984142CE48AD000A33268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29984182CE48AD000A33268 /* PBXTargetDependency */,
+			);
+			name = "main project meatshopTests";
+			productName = "main project meatshopTests";
+			productReference = D29984162CE48AD000A33268 /* main project meatshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D29984202CE48AD100A33268 /* main project meatshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29984302CE48AD100A33268 /* Build configuration list for PBXNativeTarget "main project meatshopUITests" */;
+			buildPhases = (
+				BD455F4B51A2FCBE7CB989A8 /* [CP] Check Pods Manifest.lock */,
+				D299841D2CE48AD100A33268 /* Sources */,
+				D299841E2CE48AD100A33268 /* Frameworks */,
+				D299841F2CE48AD100A33268 /* Resources */,
+				52531A5014A550DDCB77755B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29984232CE48AD100A33268 /* PBXTargetDependency */,
+			);
+			name = "main project meatshopUITests";
+			productName = "main project meatshopUITests";
+			productReference = D29984212CE48AD100A33268 /* main project meatshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29983F52CE48ACB00A33268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D29983FC2CE48ACB00A33268 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D29984152CE48AD000A33268 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D29983FC2CE48ACB00A33268;
+					};
+					D29984202CE48AD100A33268 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D29983FC2CE48ACB00A33268;
+					};
+				};
+			};
+			buildConfigurationList = D29983F82CE48ACB00A33268 /* Build configuration list for PBXProject "main project meatshop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D29983F42CE48ACB00A33268;
+			productRefGroup = D29983FE2CE48ACB00A33268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29983FC2CE48ACB00A33268 /* main project meatshop */,
+				D29984152CE48AD000A33268 /* main project meatshopTests */,
+				D29984202CE48AD100A33268 /* main project meatshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29983FB2CE48ACB00A33268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29984102CE48AD000A33268 /* LaunchScreen.storyboard in Resources */,
+				D299840D2CE48AD000A33268 /* Assets.xcassets in Resources */,
+				D29984082CE48ACC00A33268 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29984142CE48AD000A33268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299841F2CE48AD100A33268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52531A5014A550DDCB77755B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-main project meatshop-main project meatshopUITests/Pods-main project meatshop-main project meatshopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574746F1828FDD562AAE853F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-main project meatshop/Pods-main project meatshop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-main project meatshop/Pods-main project meatshop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-main project meatshop/Pods-main project meatshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4607FE92423D7E903A399B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-main project meatshopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD455F4B51A2FCBE7CB989A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-main project meatshop-main project meatshopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE25651444DD8288EF577E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-main project meatshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29983F92CE48ACB00A33268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27F45832D00333300670219 /* ImageSliderTableViewCell.swift in Sources */,
+				D29984052CE48ACC00A33268 /* ViewController.swift in Sources */,
+				2AD6C16A2D100AF600898899 /* tabar.swift in Sources */,
+				D27067502D004E4F003C0EFE /* catagoriesCollectionViewCell.swift in Sources */,
+				D2AF06692D0822C60099BD11 /* detailsViewController.swift in Sources */,
+				D2D5EE202CE725BA00620067 /* homeViewController.swift in Sources */,
+				D299840B2CE48ACC00A33268 /* main_project_meatshop.xcdatamodeld in Sources */,
+				D2AF06762D0850430099BD11 /* sideTableViewCell.swift in Sources */,
+				D2C8DA932CE5E8C800BE072F /* signupViewController.swift in Sources */,
+				D2AF067B2D0850A80099BD11 /* sidemenuViewController.swift in Sources */,
+				D2E8AD782D01A4D5003F1B6B /* secondTableViewCell.swift in Sources */,
+				D2AF066E2D08370D0099BD11 /* editViewController.swift in Sources */,
+				D2C5D7692D06CD1F0097FD52 /* fishlabelTableViewCell.swift in Sources */,
+				D2E8ADBE2D01B83A003F1B6B /* aboutusViewController.swift in Sources */,
+				D2AF06642D0811900099BD11 /* foodsCollectionViewCell.swift in Sources */,
+				D29984012CE48ACB00A33268 /* AppDelegate.swift in Sources */,
+				2AD6C16C2D100C9900898899 /* tabViewController.swift in Sources */,
+				D2C5D7762D06F0D50097FD52 /* similarproductsCollectionViewCell.swift in Sources */,
+				D270675D2D0065EA003C0EFE /* freshfishViewController.swift in Sources */,
+				D27067462D00359B003C0EFE /* ImageSliderCell.swift in Sources */,
+				D2AF065F2D08114E0099BD11 /* recepiesViewController.swift in Sources */,
+				D270674B2D003CEC003C0EFE /* categoriesTableViewCell.swift in Sources */,
+				D2C5D76E2D06CEB00097FD52 /* singleViewController.swift in Sources */,
+				D2E8AD6D2D019CD2003F1B6B /* firstTableViewCell.swift in Sources */,
+				D2AF4BE92D0183670016B77C /* productCollectionViewCell.swift in Sources */,
+				D29984032CE48ACB00A33268 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29984122CE48AD000A33268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D299841B2CE48AD000A33268 /* main_project_meatshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D299841D2CE48AD100A33268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29984262CE48AD100A33268 /* main_project_meatshopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D29984182CE48AD000A33268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29983FC2CE48ACB00A33268 /* main project meatshop */;
+			targetProxy = D29984172CE48AD000A33268 /* PBXContainerItemProxy */;
+		};
+		D29984232CE48AD100A33268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29983FC2CE48ACB00A33268 /* main project meatshop */;
+			targetProxy = D29984222CE48AD100A33268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D29984062CE48ACC00A33268 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29984072CE48ACC00A33268 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D299840E2CE48AD000A33268 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D299840F2CE48AD000A33268 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29984282CE48AD100A33268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D29984292CE48AD100A33268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299842B2CE48AD100A33268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E803DDDF110EB1B20ED701F2 /* Pods-main project meatshop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "main project meatshop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "irohub.main-project-meatshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299842C2CE48AD100A33268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C70A7C64488431C4007BF8 /* Pods-main project meatshop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "main project meatshop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "irohub.main-project-meatshop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D299842E2CE48AD100A33268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C57B9CF8C2898D7ADA4764 /* Pods-main project meatshopTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "main project meatshopTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "irohub.main-project-meatshopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/main project meatshop.app/main project meatshop";
+			};
+			name = Debug;
+		};
+		D299842F2CE48AD100A33268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD58F858E2BC73C35593C2A /* Pods-main project meatshopTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "main project meatshopTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "irohub.main-project-meatshopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/main project meatshop.app/main project meatshop";
+			};
+			name = Release;
+		};
+		D29984312CE48AD100A33268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B36D816894389240FF73E2 /* Pods-main project meatshop-main project meatshopUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "main project meatshopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "irohub.main-project-meatshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "main project meatshop";
+			};
+			name = Debug;
+		};
+		D29984322CE48AD100A33268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDF0AFC429EA3454B0800BC /* Pods-main project meatshop-main project meatshopUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "main project meatshopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "irohub.main-project-meatshopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "main project meatshop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29983F82CE48ACB00A33268 /* Build configuration list for PBXProject "main project meatshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29984282CE48AD100A33268 /* Debug */,
+				D29984292CE48AD100A33268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299842A2CE48AD100A33268 /* Build configuration list for PBXNativeTarget "main project meatshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299842B2CE48AD100A33268 /* Debug */,
+				D299842C2CE48AD100A33268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D299842D2CE48AD100A33268 /* Build configuration list for PBXNativeTarget "main project meatshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299842E2CE48AD100A33268 /* Debug */,
+				D299842F2CE48AD100A33268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29984302CE48AD100A33268 /* Build configuration list for PBXNativeTarget "main project meatshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29984312CE48AD100A33268 /* Debug */,
+				D29984322CE48AD100A33268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D29984092CE48ACC00A33268 /* main_project_meatshop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D299840A2CE48ACC00A33268 /* main_project_meatshop.xcdatamodel */,
+			);
+			currentVersion = D299840A2CE48ACC00A33268 /* main_project_meatshop.xcdatamodel */;
+			path = main_project_meatshop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D29983F52CE48ACB00A33268 /* Project object */;
+}
