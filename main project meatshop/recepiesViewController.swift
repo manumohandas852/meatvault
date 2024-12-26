@@ -11,7 +11,7 @@ class recepiesViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     @IBOutlet weak var collectionview: UICollectionView!
     var recepies: [[String: Any]] = []
-    let image = ["fishcurry","karimeenpollichathu","fishfingers","fishroast","fishmappas","chickenroast","crabsukka","friedprawns","grilledsquid"]
+    let image = ["fishcurry","karimeenpollichathu","fishfingers","fishroast","fishmappas","chickenroast","crabsukka","friedprawnss","grilledsquid"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
